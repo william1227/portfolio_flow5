@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+<link rel="stylesheet" href="../styles/styles.css">
+<link rel="stylesheet" href="../styles/tablet.css" media="screen and (min-width: 800px)">
+<link rel="stylesheet" href="../styles/desktop.css" media="screen and (min-width: 1000px)">
+</head>
+
+<body>
+	<header>
+	<nav class="navigation">
+	<ul>		
+			<li><div class="hjem"><a href="../index.html">Hjem</a></div></li>		
+			<li><div class="projekter"><a href="projekter.html">Projekter</a></div></li>		
+			<li><div class="om_mig"><a href="om_mig.html">Om mig</a></div></li>		
+			<li><div class="kontakt"><a id="link" href="kontakt.html">Kontakt</a></div></li>
+	</ul>
+		</nav>
+	</header>
+	
+	<div class="kontakt_formular">
+		<form action="mailto:cph-wr57@cphbusiness.dk" method="post" enctype="text/plain">
+		  <p>
+			<label>Dit Navn</label>
+		  </p>
+		  <p>
+			<input type="text" name="name" placeholder="Tast dit navn..." autofocus required>
+		  </p>
+		  <p>
+			<label>Din Email</label>
+		  </p>
+		  <p>
+			<input type="email" name="email" placeholder="Tast din mail addresse..." required>
+		  </p>
+		  <p>
+			<label>Din Besked</label>
+		  </p>
+			<p><textarea name="comment" placeholder="Skriv din besked..."></textarea></p>
+			<input id="send_knap" type="submit" value="Send">
+		</form>
+	</div>
+</body>
+</html>

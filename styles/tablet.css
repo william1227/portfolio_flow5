@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import "simplegrid.css";
+
+.navigation ul {
+	background-color: aqua;
+}
+/**/
+.titel_container {
+	width: 30%;
+  	height: 20%;
+  	position: absolute;
+	margin: 20% 30% 0 17%;
+	/*background-color: black;*/
+	display: flex;
+	/*vertical-align: middle;*/
+	flex-direction:column;
+	justify-content: center;	
+}
+.titel_container p {
+	font-family: 'Varela Round', sans-serif;	
+	font-weight: bold;
+	color: white;
+	padding: 15px 15px 15px 15px;
+	letter-spacing: 2px;
+	background-color: black;	
+}
+#titel_navn {
+	font-size: 35px;
+	align-content: center;
+}
+#titel_beskrivelse {
+	font-size: 30px;
+}
+/**/
+.baggrundsbillede {
+	margin-top: 40px;
+}
+/*Kontaktformen under Kontakt*/
+form {
+	width: 50vw;
+}
+input {
+	width: 50%;
+}

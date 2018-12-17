@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+/* henter et andet style sheet ind i mit eget */
+@import "css_reset.css";
+@import "simplegrid.css";
+
+/* Her kommer mine egne styles */
+
+/* Baggrundsbilledet på forsiden*/
+.baggrundsbillede {	
+	position: fixed;
+	background: url("../images/william_portrait_longer.jpg");	
+	background-repeat: no-repeat;
+	background-position:  left top;
+	background-size: 100%;	
+	height: 100%;
+	width: 100%;
+	filter: brightness(50%);
+	margin-top: 200px;
+	z-index: -10;	 
+}
+
+/* Teksten med mit navn titel på forsiden*/
+.titel_container {
+	width: 30%;
+  	height: 20%;
+  	position: absolute;
+	margin: 20% 30% 0 17%;
+	/*background-color: black;*/
+	display: flex;
+	/*vertical-align: middle;*/
+	flex-direction:column;
+	justify-content: center;	
+}
+.titel_container p {
+	font-family: 'Varela Round', sans-serif;	
+	font-weight: bold;
+	color: white;
+	padding: 15px 15px 15px 15px;
+	letter-spacing: 2px;
+	background-color: black;	
+}
+#titel_navn {
+	font-size: 20px;
+	align-content: center;
+}
+#titel_beskrivelse {
+	font-size: 16px;
+}
+
+
+/* Dette er min navigationslinje som går igen på hver side*/
+.navigation {
+	position: fixed;
+	top: 0;
+	width: 100%;	
+	z-index: +1;
+}
+.navigation ul {
+	list-style-type:none;
+  	display:flex;
+  	/*justify-content: center;*/
+	overflow: hidden;
+	background-color:white;
+	/*padding-left: 25%;*/
+	height: 55px;
+	box-shadow: 0px -5px 10px 3px rgba(0,0,0,1.00);
+}
+.navigation li { 
+	/*display: list-item;*/
+	text-align: center;	
+	margin: auto ;	
+	}
+#link {
+	/*background-color:rgba(0,255,12,0.44);*/
+	text-shadow: 2px 2px 5px grey ;
+	font-size: 23px;	
+}
+.navigation li a {
+	display: block; 
+	color:black;	
+	text-decoration: none;
+	font-size: 19px;
+	font-family: 'Varela Round', sans-serif;		
+}
+.navigation li a:hover{
+	/*background-color:rgba(0,255,12,0.44);*/
+	text-shadow: 2px 2px 5px grey ;
+	font-size: 23px;
+}
+.hjem {
+	width: 80px;
+}
+.projekter {
+	width: 130px;
+	margin-left: -30px;
+	margin-right: -10px;
+}
+.om_mig {
+	width: 120px;
+	margin: 0 -30px;
+}
+.kontakt {
+	width: 115px;
+}
+
+/*simplegrip til "projekter"*/
+[class*='col-'] {
+	margin: 0 0 10px;
+}
+.main_body {
+	
+	font-family: 'Varela Round', sans-serif;
+	
+}
+.projekt_overskrift{
+	margin-top: 140px;
+	font-size: 23px;
+}
+.content {
+	background-color: lightgray;
+}
+/*Kontaktformen under Kontakt*/
+.kontakt_formular {
+	font-family: 'Varela Round', sans-serif;
+}
+form {
+	width: 73vw;
+	margin: 150px auto;
+	
+	border-radius: 20px;
+	padding: 20px 38px 12px 23px;
+	font-size: 18px;
+	background: rgba(114,252,138,1.00);
+	}
+input {
+	width: 100%;
+	padding: 3px 6px;
+	margin: 10px 0;
+	height: 30px;
+	/*border: 1px solid #000000; */
+	font-size: 16px;
+	font-family: 'Varela Round', sans-serif;
+}
+form textarea {
+	width: 100%;
+	height: 150px;
+	/*border: solid 1px #000000; */
+	padding: 3px 6px;
+	margin: 10px 0 0 0;
+	font-size: 16px;
+	overflow:auto;
+}
+#send_knap {
+	background: rgba(234,255,237,1.00);
+	width: 80px;
+	height: 36px;
+	border-radius: 8px;
+	
+	font-weight: bold;
+}
+#send_knap:hover {
+	background: #72C176;
+}
+
+
+
+
+
+
+
+
+
+
+
+
