@@ -6,7 +6,7 @@
 
 /* Her kommer mine egne styles */
 
-/* Baggrundsbilledet på forsiden*/
+/* Baggrundsbilledet på forsiden på tablet og større*/
 .baggrundsbillede {	
 	position: fixed;
 	background: url("../images/william_portrait_longer.jpg");	
@@ -19,33 +19,33 @@
 	margin-top: 200px;
 	z-index: -10;	 
 }
+/* Billedet af mig på mobil*/
+#forside_portrait {
+	max-width: 70%;	
+	height: auto;
+	display: block;
+	margin-top: 110px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
 
 /* Teksten med mit navn titel på forsiden*/
-.titel_container {
-	width: 30%;
-  	height: 20%;
-  	position: absolute;
-	margin: 20% 30% 0 17%;
-	/*background-color: black;*/
-	display: flex;
-	/*vertical-align: middle;*/
-	flex-direction:column;
-	justify-content: center;	
-}
 .titel_container p {
 	font-family: 'Varela Round', sans-serif;	
 	font-weight: bold;
-	color: white;
+	color: black;
 	padding: 15px 15px 15px 15px;
 	letter-spacing: 2px;
-	background-color: black;	
+	
 }
 #titel_navn {
-	font-size: 20px;
-	align-content: center;
+	font-size: 24px;
+	text-align: center;
 }
 #titel_beskrivelse {
-	font-size: 16px;
+	font-size: 20px;
+	text-align: center;
 }
 
 
@@ -93,12 +93,12 @@
 }
 .projekter {
 	width: 130px;
-	margin-left: -30px;
+	margin-left: -25px;
 	margin-right: -10px;
 }
 .om_mig {
 	width: 120px;
-	margin: 0 -30px;
+	margin: 0 -28px 0 -20px;
 }
 .kontakt {
 	width: 115px;
@@ -109,17 +109,135 @@
 	margin: 0 0 10px;
 }
 .main_body {
-	
 	font-family: 'Varela Round', sans-serif;
-	
 }
 .projekt_overskrift{
 	margin-top: 140px;
+	margin-bottom: 20px;
 	font-size: 23px;
 }
 .content {
-	background-color: lightgray;
+	background-color: rgba(220,220,220,1.00);
 }
+.content a {
+	display: block;
+}
+.main_body img {
+	width: 100%;
+}
+.vejr_app_billede1 {
+	margin-right: 3%;
+}
+.vejr_app_billede2 {
+	margin-left: 3%;
+}
+.vejr_app_container {
+	float: left;
+	width: 49%;
+}
+/*overlays på projekter siden*/
+#overlay1 {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+#overlay2 {
+  position: fixed; 
+  display: none; 
+  width: 100%; 
+  height: 100%; 
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); 
+  z-index: 2; 
+  cursor: pointer; 
+}
+#overlay3 {
+  position: fixed; 
+  display: none; 
+  width: 100%; 
+  height: 100%;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+#overlay4 {
+  position: fixed;
+  display: none; 
+  width: 100%; 
+  height: 100%; 
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); 
+  z-index: 2;
+  cursor: pointer; 
+}
+#overlay5 {
+  position: fixed; 
+  display: none; 
+  width: 100%; 
+  height: 100%; 
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+.overlay_content{
+  position: static; 
+	background-color: white;
+	width: 86vw;
+	max-width: 700px;
+	max-height: 95vh;
+	margin:auto;
+	padding: 7px;
+	overflow:scroll;
+}
+.beskrivelse_link {
+	cursor:pointer;
+     color:blue;
+     text-decoration:underline;
+}
+
+/*styles til "om_mig" siden*/
+#om_mig_section {
+	margin-top: 90px;
+}
+.om_mig_beskrivelse {		
+	font-family: 'Varela Round', sans-serif;
+	line-height: 19px;
+	margin-top: 30px;
+}
+.om_mig_beskrivelse p {
+	margin-bottom: 12px;
+}
+.portrait {
+	max-width: 70%;	
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+
 /*Kontaktformen under Kontakt*/
 .kontakt_formular {
 	font-family: 'Varela Round', sans-serif;

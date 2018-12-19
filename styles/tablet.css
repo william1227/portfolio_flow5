@@ -8,35 +8,27 @@
 	background-color: aqua;
 }
 /**/
-.titel_container {
-	width: 30%;
-  	height: 20%;
-  	position: absolute;
-	margin: 20% 30% 0 17%;
-	/*background-color: black;*/
-	display: flex;
-	/*vertical-align: middle;*/
-	flex-direction:column;
-	justify-content: center;	
+ .titel_container {  
+	margin-top: 30%;
 }
 .titel_container p {
 	font-family: 'Varela Round', sans-serif;	
 	font-weight: bold;
 	color: white;
 	padding: 15px 15px 15px 15px;
-	letter-spacing: 2px;
-	background-color: black;	
+	letter-spacing: 2px;		
 }
 #titel_navn {
 	font-size: 35px;
-	align-content: center;
+	text-align: left;
 }
 #titel_beskrivelse {
 	font-size: 30px;
+	text-align: left;
 }
 /**/
 .baggrundsbillede {
-	margin-top: 40px;
+	margin-top: 55px;
 }
 /*Kontaktformen under Kontakt*/
 form {
@@ -44,4 +36,20 @@ form {
 }
 input {
 	width: 50%;
+}
+/*styles til "om_mig" siden*/
+#om_mig_section {
+	margin-top: 140px;
+}
+.om_mig_beskrivelse {
+	margin-top: 0;
+	margin-right: 50px;
+}
+.portrait {
+	max-width: 100%;	
+}
+.hide-on-tablet {
+	display: none !important;
+	width: 0;
+	height: 0;
 }

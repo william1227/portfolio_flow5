@@ -6,7 +6,7 @@
 <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 <link rel="stylesheet" href="../styles/styles.css">
-<link rel="stylesheet" href="../styles/tablet.css" media="screen and (min-width: 800px)">
+<link rel="stylesheet" href="../styles/tablet.css" media="screen and (min-width: 768px)">
 <link rel="stylesheet" href="../styles/desktop.css" media="screen and (min-width: 1000px)">
 </head>
 
@@ -31,12 +31,15 @@
 			</div>
 			<div class="col-6-12">
 				<div class="content">
-					<p>Flow 1 billede</p>
+					<img src="../images/drøm_en_portfolio_screenshot.jpg" alt="et screenshot af min første portfolio opgave">
+					<img src="../images/drøm_en_portfolio_screenshot2.jpg" alt="et screenshot af min første portfolio opgave">
 				</div>
 			</div>
 			<div class="col-6-12">
 				<div class="content">
 					<p>Flow 1 beskrivelse</p>
+					<a href="https://xd.adobe.com/view/98e4fd5e-11d9-458d-5c82-545a94b184de-eed5/?fullscreen">Link til portfolio XD prototype</a>
+					<a onClick="flow1()" class="beskrivelse_link">Link til opgavebeskrivelse</a>
 				</div>
 			</div>
 			<div class="col-1-1">
@@ -46,12 +49,15 @@
 			</div>
 			<div class="col-6-12">
 				<div class="content">
-					<p>Flow 2 billede</p>
+					<img src="../images/oldportfolio_hjem_screenshot.jpg" alt="et screenshot af min anden portfolio opgave">
+					<img src="../images/oldportfolio_projekter_screenshot.jpg" alt="et screenshot af min anden portfolio opgave">
 				</div>
 			</div>
 			<div class="col-6-12">
 				<div class="content">
 					<p>Flow 2 beskrivelse</p>
+					<a href="http://designmann.dk/oldportfolio/index.html">Link til gamle portfolio</a>
+					<a onClick="flow2()" class="beskrivelse_link">Link til opgavebeskrivelse</a>
 				</div>
 			</div>
 			<div class="col-1-1">
@@ -60,13 +66,20 @@
 				</div>
 			</div>
 			<div class="col-6-12">
-				<div class="content">
-					<p>Flow 3 billede</p>
+				<div>
+					<div class="content vejr_app_container">
+						<img src="../images/vejr_app_tablet_screenshot.PNG" alt="et screenshot af min vejr-app på tablet" class="vejr_app_billede1">
+					</div>
+					<div class="content vejr_app_container">
+						<img src="../images/vejr_app_phone_screenshot.PNG" alt="et screenshot af min vejr-app på mobil" class="vejr_app_billede2">
+					</div>
 				</div>
 			</div>
 			<div class="col-6-12">
 				<div class="content">
 					<p>Flow 3 beskrivelse</p>
+					<a href="https://xd.adobe.com/view/54a27a59-d3ed-42db-4e1b-11270fdbfb97-2293/screen/714f9e94-48cb-4a9e-9982-5a073bbdb121/Android-Mobile-7?fullscreen">Link til funktionel vejr app</a>
+					<a onClick="flow3()" class="beskrivelse_link">Link til opgavebeskrivelse</a>
 				</div>
 			</div>
 			<div class="col-1-1">
@@ -76,12 +89,18 @@
 			</div>
 			<div class="col-6-12">
 				<div class="content">
-					<p>Flow 4 billede</p>
+					<img src="../images/sweetbot_screenshot.jpg" alt="et screenshot af vores gruppeprojekt sweetbot">
+					<img src="../images/hotbot_image.jpg" alt="et screenshot af vores gruppeprojekt hotbot">
+						 
 				</div>
 			</div>
 			<div class="col-6-12">
 				<div class="content">
 					<p>Flow 4 beskrivelse</p>
+					<a href="http://designmann.dk/sweetbot/index.html">Link til sweetbot hjemmeside</a>
+					<a href="https://xd.adobe.com/view/db6e1653-d3b0-4cf2-5386-8378a9d29e16-ad5f/">Link til hotbot</a>
+					<a href="../default/MULB-10-sweetbot.pdf">Link til rapport</a>
+					<a onClick="flow4()" class="beskrivelse_link">Link til opgavebeskrivelse</a>
 				</div>
 			</div>
 			<div class="col-1-1">
@@ -97,9 +116,194 @@
 			<div class="col-6-12">
 				<div class="content">
 					<p>Flow 5 beskrivelse</p>
+					<a onClick="flow5()" class="beskrivelse_link">Link til opgavebeskrivelse</a>
 				</div>
 			</div>
 		</div>
 		</section>
+	
+		<div id="overlay1" onClick="off1()">
+			<div class="overlay_content">
+				<h2>Flowprojekt: Drøm din portfolio (15 study points)</h2>
+<p>En portfolio er et professionelt værktøj, som bruges til at vise dine kommende arbejdsgiver, hvem du er og hvad du kan.</p>
+<p>Nu har du muligheden for at skitsere dit første oplæg til et portfolio i Adobe XD eller lignende prototypeværktøj. Aflever 1 PDF-fil (max. 3 sider og max. 10 MB) som beskriver og dokumenterer din prototype!</p>
+<p>Tilføj et link i PDF'en til en online version af jeres portfolio (brug Adobe XD's "publish prototype"-link).</p>
+<p>Vi udvælger enkelte portfolier til præsentation i klassen d. 14.09.</p>
+<p></p>
+<p><strong>Studypoints</strong></p>
+<p>Individuel design opgave. Den giver 15 study points ud af samlet 25 study points i Flow 1.</p>
+			</div>
+		</div>
+	
+		<div id="overlay2" onClick="off2()">
+			<div class="overlay_content">
+				<h2>Flow projekt - byg din portfolio! [15 study points]</h2>
+				<p>Nu er det tid til at implementere en fungerende online version af din portfolio i form af et website, som du udvikler fra grunden ved hjælp af HTML 5 og CSS 3. Brug din prototype som oplæg – måske kommer du tæt på det første udkast, måske tager dit projekt en ny og uventet kreativ retning?</p>
+<p>Du skal producere en online version og dokumentere din kode og projektstruktur på <a href="https://github.com/" target="_blank">GitHub</a>. Vi forventer:</p>
+<ul>
+<li>online version af din portfolio på dit Webhotel (ikke via GitHub pages) </li>
+<li>en repository til dit portfolio projekt</li>
+<li>en passende projektstruktur (filnavne, mapper)</li>
+<li>fejlfri kode (<strong>valideret</strong>!)</li>
+</ul>
+<p>Udover den tekniske implementering, er det vigtigt, at du forholder dig til følgende, når du designer dit nye website:</p>
+<ul>
+<li>Hvem skal se min portfolio – hvem henvender jeg mig til?</li>
+<li>Hvordan præsenterer jeg bedst mig selv?</li>
+<li>Hvordan formidler jeg, hvad jeg har lært indtil nu og hvad jeg håber at lære fremover?</li>
+<li>Hvilken visuel stil og stemning ønsker jeg på min portfolio?</li>
+<li>Hvordan kan jeg give min portfolio et personligt touch?</li>
+</ul>
+<p>Inspiration søges? -&gt;<a href="https://speckyboy.com/creative-portfolios-of-50-designers/" target="_blank"><strong> 50 Inspirational &amp; Creative Personal Portfolio Websites</strong></a></p>
+<p>Din portfolio vil følge dig gennem hele din studietid og er et vigtigt redskab til præsentation af dit arbejde og din læring, samt en platform, hvor underviserne løbende kan følge din faglige udvikling og studieaktivitet.</p>
+<p>Flowet afsluttes med en fælles præsentationsdag, hvor vi vurderer og diskuterer jeres arbejde i plenum. Har du brug for yderligere feedback, kommentarer eller forslag til din portfolio, kan du kontakte underviserne efterfølgende. </p>
+<p>Du afleverer her i opgaven:</p>
+<ul>
+<li>Et link direkte til din online portfolio</li>
+<li>Et link til dit GitHub repository</li>
+</ul>
+<p>Projektet giver i alt 15 study points, som er fordelt på:</p>
+<ul>
+<li>5 points for online versionen</li>
+<li>5 point for dokumentation på Github </li>
+<li>5 points for deltagelse i præsentationsdagen</li>
+</ul>
+
+			</div>
+		</div>
+	
+		<div id="overlay3" onClick="off3()">
+			<div class="overlay_content">
+				<h2>Flow projekt – byg en app [15 sp]</h2>
+<p><strong>Produkt</strong></p>
+<p>I projektet for dette flow, vil du designe og skabe en prototype på en mobil app. Du vælger selv den type enhed/smartphone og tablet du udvikler til, såvel som operativsystem.</p>
+<p>Appen skal være en løsning til en af de tre nedenstående problemstillinger. Du vil bruge Adobe XD til demonstrere skærmene i appen og deres flow samt bruge Adobe Illustrator til grafik til interfacet og Adobe Photoshop til billeder.</p>
+<p>Vælg ét af følgende temaer til projekt:</p>
+<p>• Vejr app</p>
+<p>• Boligsøgnings app,</p>
+<p>• Sportstracking app</p>
+<p>Opgaven må udvikles i samarbejde med andre fx ved fælles ideudvikling og dataindsamling samt udvikling af grafik og billeder. Men den endelige prototype aflevering skal være unik og individuel.</p>
+<p>Appen skal udvikles til både mobil og tablet og der skal være indhold i mindst 3 menupunkter og mindst 3 niveauer. Indhold skal være tilstrækkeligt til at brugertest kan gennemføres men generisk indhold og prosatekst kan være placeholder.</p>
+<p>Der skal udvikles forslag til interface elementer herunder ikoner til appen, alle tegnet i Adobe Illustrator.</p>
+<p>I skal teste, om brugerne forstår jeres design. I skal undersøge, hvordan I bedst organiserer indholdet i appen, ved hjælp af testmetoden kortsortering, samt om brugerne forstår hvordan appen fungerer, ved at gennemføre tænke-højt tests på den potentielle målgruppe.</p>
+<p></p>
+<p><b>Rapport</b></p>
+<p>Aflever 1 PDF-fil med det fulde navn.</p>
+<p>Indhold max. 3 sider* tekst og max. 10 MB</p>
+<p>Angiv link til din XD prototype på forsiden.</p>
+<p>3* sider betyder 3 ”normalsider” og er et mål for mængden af tekstindhold = 2.400 anslag (incl mellemrum pr. side) og betyder at pdf-filen gerne må indeholde fx 8 sider/ark i alt.</p>
+<p>Rapporten skal beskrive din prototype og visuelt dokumentere udviklingen, som fx en visuel logbog med  kommenterede billeder/screendumps. Vi forventer som minimum:</p>
+<ul>
+<li>Kort beskrivelse af målgruppen (via 2 "personaer")</li>
+<li>App flowchart (fx tegnet i Illustrator)</li>
+<li>Dokumenter udvikling af screen mobile phone og tablet layout</li>
+<li>Dokumenter udvikling af app ikon design</li>
+<li><span>Kort opsummering af resultater af test (kortsortering + tænke-højt test)</span></li>
+</ul>
+<p>Projektet giver i alt 15 study points, som er fordelt på:</p>
+<ul>
+<li>5 points for aflevering af PDF fil</li>
+<li>5 point for aflevering af app prototype i Adobe XD</li>
+<li>5 points for deltagelse i præsentationsdag</li>
+</ul>
+<p>Flowet afsluttes med en fælles præsentationsdag, hvor vi vurderer og diskuterer løsninger i plenum. Du vil desuden få en kort skriftlig kommentar på Moodle. Har du brug for yderligere feedback, kommentarer eller forslag til din portfolio, kan du kontakte underviserne efterfølgende. </p>
+<p><strong>DEADLINE</strong>: 1. nov., kl. 18:00.</p>
+			</div>
+		</div>	
+	
+		<div id="overlay4" onClick="off4()">
+			<div class="overlay_content">
+				<h2>Flow projekt - sweetbot.design [15 study points] </h2>
+<p>Det lille fiktive webbureau Sweetbot har brug for jeres hjælp. Virksomheden har specialiseret sig indenfor følgende områder:</p>
+<ul>
+<li><strong>Webudvikling</strong></li>
+<li><strong>Digital security</strong></li>
+<li><strong>Branding</strong></li>
+</ul>
+<p>Sweetbot er internationalt orienteret og består af 4 medarbejdere samt 2 CEOs. Sweetbot ønsker at implementere en dansk udgave af deres website. Websitet skal være optimeret til mobile enheder og Sweetbot ønsker desuden, at der skal indgå jQuery elementer i løsningen.</p>
+<p>Udover den tekniske løsning, bliver I også bedt om at give et bud på visuelle elementer samt informationarkitektur til sitet. Sweetbot har en style guide som <strong>skal</strong> følges (se vedhæftede fil) samt et logo som <strong>skal</strong> implementeres (se vedhæftede .eps fil).</p>
+<p>Sweetbot har netop udviklet deres egen e-commerce løsning under navnet <em>HotBot</em>, men mangler et logo samt ikoner til løsningen. Dette skal I også udvikle og demonstrere i den online website løsning. Logoet skal desuden tilføjes den aktuelle styleguide.</p>
+<p>Sidst men ikke mindst skal I foretage en brugertest af sitet.</p>
+<p>Flowet afsluttes med en fælles præsentationsdag, hvor vi vurderer og diskuterer jeres løsning i plenum.</p>
+<p>Gruppestørrelsen skal være på 3-4 stud.</p>
+<p></p>
+<p><strong>Aflevering (<strong>senest den 23. november, kl. 08.00)</strong>:</strong></p>
+<p><strong></strong>1 PDF fil (<strong>filnavn:MUL[A/B]-[Gruppe-nr]-sweetbot.pdf</strong> - eksempel: MULA-01-sweetbot.pdf) med</p>
+<ul>
+<li><strong>Navne + Cphbusiness-mails</strong></li>
+<li><strong></strong><strong>Link til gruppens online løsning</strong></li>
+<li><strong>Link til gruppens <strong>GitHub </strong>repository</strong></li>
+<li><strong>Kort redegørelse for gruppens GitHub strategi</strong></li>
+<li><strong></strong><strong>Kort beskrivelse af de gennemførte brugertests</strong></li>
+</ul>
+<p></p>
+<p>Projektet giver i alt <strong>15 study points</strong> som er fordelt på følgende:</p>
+<ul>
+<li><strong>5 study points for aflevering af link til websitet</strong></li>
+<li><strong>10 study points for præsentationen @ præsentationsdag</strong></li>
+</ul>
+<p>God arbejdslyst - og happy coding!</p>
+			</div>
+		</div>
+	
+		<div id="overlay5" onClick="off5()">
+			<div class="overlay_content">
+			</div>
+		</div>
+	<script>
+
+function flow1() {
+  document.getElementById("overlay1").style.display = "block";
+}
+function off1() {
+  document.getElementById("overlay1").style.display = "none";
+}
+function flow2() {
+  document.getElementById("overlay2").style.display = "block";
+}
+function off2() {
+  document.getElementById("overlay2").style.display = "none";
+}
+function flow3() {
+  document.getElementById("overlay3").style.display = "block";
+}	
+function off3() {
+  document.getElementById("overlay3").style.display = "none";
+}
+function flow4() {
+  document.getElementById("overlay4").style.display = "block";
+}
+function off4() {
+  document.getElementById("overlay4").style.display = "none";
+}
+function flow5() {
+  document.getElementById("overlay5").style.display = "block";
+}
+function off5() {
+  document.getElementById("overlay5").style.display = "none";
+}
+</script>
+	
+		
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,11 +2,11 @@
 <html class="index" lang="da">
 <head>
 <meta charset="utf-8">
-<title>Home</title>
+<title>Hjem</title>
 <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 <link rel="stylesheet" href="styles/styles.css">
-<link rel="stylesheet" href="styles/tablet.css" media="screen and (min-width: 800px)">
+<link rel="stylesheet" href="styles/tablet.css" media="screen and (min-width: 768px)">
 <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 1000px)">
 
 </head>
@@ -24,12 +24,26 @@
 		</nav>
 	</header>
 
-	<div class="baggrundsbillede"></div>
+	<div class="baggrundsbillede hide-on-mobile"></div>
+	<div>
+		<img src="images/william_portrait_face.jpg" alt="et billede af mit ansigt" class="hide-on-tablet" id="forside_portrait">
+	</div>
 	
-	<div class="titel_container">  		
+	<section>
+	<div class="grid grid-pad">
+		<div class="col-6-12 titel_container">
+			<div>
+				<p id="titel_navn">William Reymann-Carlsen</p>
+				<p id="titel_beskrivelse">Multimediedesigner</p>
+			</div>
+		</div>
+		
+	</div>
+	</section>
+	<!--<div class="titel_container">  		
 			<p id="titel_navn">William Reymann-Carlsen</p>
 			<p id="titel_beskrivelse">Multimediedesigner</p>		
-	</div>
+	</div> -->
 	
 </body>		
 
