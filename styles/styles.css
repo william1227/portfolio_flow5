@@ -15,7 +15,7 @@
 	background-size: 100%;	
 	height: 100%;
 	width: 100%;
-	filter: brightness(50%);
+	filter: brightness(65%);
 	margin-top: 200px;
 	z-index: -10;	 
 }
@@ -280,7 +280,6 @@ form textarea {
 #send_knap:hover {
 	background: #72C176;
 }
-
 
 
 

@@ -1,18 +1,20 @@
 <!doctype html>
 <html lang="da">
 <head>
-<meta charset="utf-8">
-<title>Home</title>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<title>Projekter</title>
 <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 <link rel="stylesheet" href="../styles/styles.css">
 <link rel="stylesheet" href="../styles/tablet.css" media="screen and (min-width: 768px)">
 <link rel="stylesheet" href="../styles/desktop.css" media="screen and (min-width: 1000px)">
+	
 </head>
 
+	
 <body>
 	<header>
-	<nav class="navigation">
+		<nav class="navigation">
 	<ul>		
 			<li><div class="hjem"><a href="../index.html">Hjem</a></div></li>		
 			<li><div class="projekter"><a id="link" href="projekter.html">Projekter</a></div></li>		
@@ -22,7 +24,8 @@
 		</nav>
 	</header>
 	
-		<section class="main_body">
+		<section class="main_body">			
+			
 		<div class="grid grid-pad">
 			<div class="col-1-1">
 				<div class="content projekt_overskrift">
@@ -37,7 +40,12 @@
 			</div>
 			<div class="col-6-12">
 				<div class="content">
-					<p>Flow 1 beskrivelse</p>
+					<p>Vores første projekt, gik up på at lave en prototype af vores portfolio i Adobe XD, hvor vi enten kunne præsentere i vores egne projekter, eller finde ting på nettet hvis vi ikke havde noget selv.</p>
+					<p>Jeg tog udgangspunkt i en thumbnail baseret navigation, hvorved man valgte et projekt ud fra fem presenteret i toppen, og derefter blev sendt til dets side, med detjer om projektet og større billeder. </p>
+					<p>Der var også en side kaldet "Kontakt mig" som indeholdt min kontaktinformation, og et billede af mig, for at man kunne danne sig et indtryk af mig.</p>
+					<h2>Designvalg:</h2>
+					<p>Mit farvevalg bestod af forskellige gråtoner, med det formål at holde ting læseligt, uden mange forskellige farver til at distrahere.</p>
+					<p>På dette tidspunkt, havde jeg ikke gjort nogle overvejelser om griddesign eller typografi.</p>
 					<a href="https://xd.adobe.com/view/98e4fd5e-11d9-458d-5c82-545a94b184de-eed5/?fullscreen">Link til portfolio XD prototype</a>
 					<a onClick="flow1()" class="beskrivelse_link">Link til opgavebeskrivelse</a>
 				</div>
@@ -55,7 +63,15 @@
 			</div>
 			<div class="col-6-12">
 				<div class="content">
-					<p>Flow 2 beskrivelse</p>
+					<p>Vores andet projekt gav os til opgave, at implimentere vores portfolio som en funktionel hjemmeside ved hjælp af HTML og CSS.</p>
+					<p></p>
+					<p>På forsiden præsenterede jeg mit navn og et billede af mig selv, fordi forsiden af ens porfolio ofte er det første indtryk en potentitel arbejdsgiver får af en.</p>
+					<p>Jeg implementerede min thumbnail baserede navigation, fra flow 1 ved hjælp af tabeller i HTML under "Mine projekter". Jeg havde problemer med at style objekter inde i tabeller, så billederne endte med at være i forskellelige størrelser.</p>
+					<p>På "Om mig" siden havde jeg en simpel beskrivelse af mine evner, hvad jeg havde foretaget mig tidligere og et billede af mig selv.</p>
+					<p>Til "Kontakt" siden brugte jeg en simpel kontaktformular, som vi havde arbejdet med i timerne.</p>
+					<h2>Designvalg:</h2>
+					<p>Til min menulinje valgte jeg en højrestillet bar på toppen af siden, som forbliver på toppen lige meget hvor langt man scroller ned. Menupunkterne bliver highlightede når man bevæger musen over dem, og forbliver den farve, når man er på siden, så man ikke bliver forvirret over hvilken side man er på.</p>
+					<p>På forsiden tilføjede jeg et lille mønster, som delte mit navn og billedet, med det formål at give siden et personligt præg.</p>
 					<a href="http://designmann.dk/oldportfolio/index.html">Link til gamle portfolio</a>
 					<a onClick="flow2()" class="beskrivelse_link">Link til opgavebeskrivelse</a>
 				</div>
@@ -77,9 +93,17 @@
 			</div>
 			<div class="col-6-12">
 				<div class="content">
-					<p>Flow 3 beskrivelse</p>
+					<p>Flow 3's projekt var udviklingen af en app, hvor man kunne vælge mellem at lave en vejr-app, en bolig-app og en motions-app. Jeg valgte at lave en vejr-app, som skulle vise vejret ud fra den valgte lokation på appen.</p>
+					<p>Jeg lavede en kortsorterings brugertest for at finde ud af hvilke informationer, på en vejr-app var vigtigst for dem. Ud fra denne test placerede jeg informationerne på appen i den rækkefølge. Først temperaturen, så oversigten for kommende uge, og derfra kan man trykke på "Detaljer for idag" for at se yderlige informationer.</p>
+					<h2>Designvalg:</h2>
+					<p>Jeg valgte en lys blå farve til at representere himlen, og fordi det har en god kontrast til en orange sol.</p>
+					<p>Ikonerne er designet med få detaljer, for kunne forstås både i stor og små version på uge oversigten.</p>
 					<a href="https://xd.adobe.com/view/54a27a59-d3ed-42db-4e1b-11270fdbfb97-2293/screen/714f9e94-48cb-4a9e-9982-5a073bbdb121/Android-Mobile-7?fullscreen">Link til funktionel vejr app</a>
 					<a onClick="flow3()" class="beskrivelse_link">Link til opgavebeskrivelse</a>
+					<h2>Redesign:</h2>
+					<p>Til mit redesign af min vejr-app, valgte jeg at gå væk fra en solid farve som baggrund, og i stedet bruge et billede, men stadigvæk beholde den samme fornemmelse, fordi der er meget blå himmel på billedet.</p>
+					<p>Ud over det gjorde jeg menuerne gennemsigtige, og gav teksten en skygge så man bedre læse det, der hvor der var en lysere baggrund.</p>
+					<a href="https://xd.adobe.com/view/38ead047-e60b-4d91-4d5e-a43652740a8b-4edb/screen/661d3fa0-3641-46c6-93aa-5022eeeed4c1/Android-Mobile-17?fullscreen">Link til redesign</a>
 				</div>
 			</div>
 			<div class="col-1-1">
@@ -96,11 +120,17 @@
 			</div>
 			<div class="col-6-12">
 				<div class="content">
-					<p>Flow 4 beskrivelse</p>
+					<p>Dette projekt gik ud på at lave en hjemmesiden til et firma kaldet Sweetbot, ud fra en vedlagt styleguide. Derudover skulle vi give et bud på et design til deres nye webshop kaldet Hotbot. Vi arbejdede i en gruppe af fire, og jeg arbejde primært med design af logo og ikoner til Hotbot.</p>
+					<p>Vi valgte at lave sweetbot siden som en one-pager, hvor man enten kunne følge menupunkter i toppen, eller scrolle ned selv. Vi brugte de forskellige farver som fulgte med styleguiden, til at opdele baggrunden på de forskellige menupunkter, så de hver havde deres eget tema.</p>
+					<p>Under udviklingen af Hotbot logoet, gik jeg gennem forskellige typer af design, hvor jeg først forsøgte at lave en Hotbot version af sweetbot logoet, med rød baggrund i Illustrator. Efter feedback fra min gruppe begyndte jeg at arbejde med et robot design, som vi endte med at bruge til logo.</p>
 					<a href="http://designmann.dk/sweetbot/index.html">Link til sweetbot hjemmeside</a>
 					<a href="https://xd.adobe.com/view/db6e1653-d3b0-4cf2-5386-8378a9d29e16-ad5f/">Link til hotbot</a>
 					<a href="../default/MULB-10-sweetbot.pdf">Link til rapport</a>
 					<a onClick="flow4()" class="beskrivelse_link">Link til opgavebeskrivelse</a>
+					<h2>Redesign:</h2>
+					<p>Til mit redesign af sweetbot valgte jeg at rette nogle af de fejl, som var til stede i aflevering. Formateringen af billederne gjorde at de blev mast sammen, så det rettede jeg ved at lade billederne være deres oprindelige størrelse, og give dem en container som så skærer deres hjørner af.</p>
+					<p>Jeg valgte at fjerne det nederste punkt på siden kaldet "Hotbot grafik" fordi det var vores måde at vise mine ikoner, i større format under vores præsentation, men de passer ikke ind på sweetbot siden tematisk.</p>
+					<a href="http://designmann.dk/sweetbot_redesign/index.html">Link til sweetbot redesign</a>
 				</div>
 			</div>
 			<div class="col-1-1">
@@ -284,7 +314,7 @@ function off5() {
 }
 </script>
 	
-		
+	
 </body>
 </html>
 
