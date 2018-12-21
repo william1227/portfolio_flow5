@@ -148,21 +148,26 @@
 }
 .vejr_app_container {
 	float: left;
-	width: 49%;
+	width: 48%;
+	
+}
+.flow5_redesign {
+
 }
 .flow5_redesign img {
 	margin-bottom: 10px;
 }
 .flow5_mobil_screenshot {
-	max-width: 48%;
 	float: left;	
 }
-.flow5_mobil_screenshot1 {
-	margin-right: 5%;
+.image1 {
+	width: 49%;
+	margin-right: 1%;
 }
-.flow5_mobil_screenshot2 {
-	margin-left: 5%;
+.image2 {
+	width: 50%;
 }
+
 
 
 
