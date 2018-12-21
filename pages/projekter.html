@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 <title>Projekter</title>
-<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 <link rel="stylesheet" href="../styles/styles.css">
 <link rel="stylesheet" href="../styles/tablet.css" media="screen and (min-width: 768px)">
@@ -39,7 +38,7 @@
 				</div>
 			</div>
 			<div class="col-6-12">
-				<div class="content">
+				<div class="content content_text">
 					<p>Vores første projekt, gik up på at lave en prototype af vores portfolio i Adobe XD, hvor vi enten kunne præsentere i vores egne projekter, eller finde ting på nettet hvis vi ikke havde noget selv.</p>
 					<p>Jeg tog udgangspunkt i en thumbnail baseret navigation, hvorved man valgte et projekt ud fra fem presenteret i toppen, og derefter blev sendt til dets side, med detjer om projektet og større billeder. </p>
 					<p>Der var også en side kaldet "Kontakt mig" som indeholdt min kontaktinformation, og et billede af mig, for at man kunne danne sig et indtryk af mig.</p>
@@ -62,7 +61,7 @@
 				</div>
 			</div>
 			<div class="col-6-12">
-				<div class="content">
+				<div class="content content_text">
 					<p>Vores andet projekt gav os til opgave, at implimentere vores portfolio som en funktionel hjemmeside ved hjælp af HTML og CSS.</p>
 					<p></p>
 					<p>På forsiden præsenterede jeg mit navn og et billede af mig selv, fordi forsiden af ens porfolio ofte er det første indtryk en potentitel arbejdsgiver får af en.</p>
@@ -92,7 +91,7 @@
 				</div>
 			</div>
 			<div class="col-6-12">
-				<div class="content">
+				<div class="content content_text">
 					<p>Flow 3's projekt var udviklingen af en app, hvor man kunne vælge mellem at lave en vejr-app, en bolig-app og en motions-app. Jeg valgte at lave en vejr-app, som skulle vise vejret ud fra den valgte lokation på appen.</p>
 					<p>Jeg lavede en kortsorterings brugertest for at finde ud af hvilke informationer, på en vejr-app var vigtigst for dem. Ud fra denne test placerede jeg informationerne på appen i den rækkefølge. Først temperaturen, så oversigten for kommende uge, og derfra kan man trykke på "Detaljer for idag" for at se yderlige informationer.</p>
 					<h2>Designvalg:</h2>
@@ -119,7 +118,7 @@
 				</div>
 			</div>
 			<div class="col-6-12">
-				<div class="content">
+				<div class="content content_text">
 					<p>Dette projekt gik ud på at lave en hjemmesiden til et firma kaldet Sweetbot, ud fra en vedlagt styleguide. Derudover skulle vi give et bud på et design til deres nye webshop kaldet Hotbot. Vi arbejdede i en gruppe af fire, og jeg arbejde primært med design af logo og ikoner til Hotbot.</p>
 					<p>Vi valgte at lave sweetbot siden som en one-pager, hvor man enten kunne følge menupunkter i toppen, eller scrolle ned selv. Vi brugte de forskellige farver som fulgte med styleguiden, til at opdele baggrunden på de forskellige menupunkter, så de hver havde deres eget tema.</p>
 					<p>Under udviklingen af Hotbot logoet, gik jeg gennem forskellige typer af design, hvor jeg først forsøgte at lave en Hotbot version af sweetbot logoet, med rød baggrund i Illustrator. Efter feedback fra min gruppe begyndte jeg at arbejde med et robot design, som vi endte med at bruge til logo.</p>
@@ -129,6 +128,7 @@
 					<a onClick="flow4()" class="beskrivelse_link">Link til opgavebeskrivelse</a>
 					<h2>Redesign:</h2>
 					<p>Til mit redesign af sweetbot valgte jeg at rette nogle af de fejl, som var til stede i aflevering. Formateringen af billederne gjorde at de blev mast sammen, så det rettede jeg ved at lade billederne være deres oprindelige størrelse, og give dem en container som så skærer deres hjørner af.</p>
+					<p>Jeg rettede også en fejl hvor sweetbot logoet havde 1 pixel tomrum over sig.</p>
 					<p>Jeg valgte at fjerne det nederste punkt på siden kaldet "Hotbot grafik" fordi det var vores måde at vise mine ikoner, i større format under vores præsentation, men de passer ikke ind på sweetbot siden tematisk.</p>
 					<a href="http://designmann.dk/sweetbot_redesign/index.html">Link til sweetbot redesign</a>
 				</div>
@@ -139,13 +139,28 @@
 				</div>
 			</div>
 			<div class="col-6-12">
-				<div class="content">
-					<p>Flow 5 billede</p>
+				<div class="content flow5_redesign">
+					<img src="../images/flow5_portfolio_hjem.jpg" alt="screenshot af min portfolio forside">
+					<img src="../images/flow5_portfolio_projekter.jpg"	alt="screenshot af projekt undersiden">
+						<div class="flow5_mobil_screenshot">
+					<img src="../images/flow5_portfolio_hjem_mobil.jpg" alt="screenshot af min portfolio forside set på mobil" class="flow5_mobil_screenshot1">
+						</div>
+						<div class="flow5_mobil_screenshot">
+					<img src="../images/flow5_portfolio_projekter_mobil.jpg" alt="screenshot af projekt undersiden set på mobil" class="flow5_mobil_screenshot2">
+						</div>
 				</div>
 			</div>
 			<div class="col-6-12">
-				<div class="content">
-					<p>Flow 5 beskrivelse</p>
+				<div class="content content_text">
+					<p>Før jeg begyndte at lave mit opdaterede portfolio, lavede jeg en brugertest på mit gamle portfolio fra flow 2. Jeg præsenterede mit portfolio til tre forskellige personer og stilte dem følgende spørgsmål: Er siden nem at finde rundt på? Føler du at du har fået et indtryk af mine evner?</p>
+					<p>Der var ikke nogen problemer, med at navigere mellem de forskellige sider, men under projekt siden var folk utilfredse med thumbnail navigationen. Der var ikke meget grund til at have en thumbnailmenu, når der kun var fire ting at vælge mellem, så det har jeg gået væk fra. Folk mente at de havde en okay forståelse af mine evner, men eftersom de ikke helt vidste hvad der kræves af en multimediedesigner, kunne de ikke sige om det var relevant.</p>
+					<p>responsive</p>
+					<p>Portfoliet er nu fuldt responsivt og skaleres nemt ned til mobil størelse. Ved hjælp af <a href="http://thisisdallas.github.io/Simple-Grid/" style="display: inline">simplegrids</a> har jeg brugt to spalter til at fremvise mine projekter, med billeder og tekst. Disse spalter bliver til en lang spalte når man skalerer ned til mobil størrelse. Jeg valgte ikke at lave en burgermenu på mobil størrelse, fordi det er der kun brug for, hvis man ikke har plads til alle sine menupunkter, og jeg havde kun fire.</p>
+					<p>typografi, farver, grid</p>
+					<p>Jeg valgte et grønt tema, fordi grøn er en munter og beroligende farve som giver læseren en behaglig oplevelse. Baggrunden på siderne er hvid for at gøre læslighed høj, </p>
+					<p></p>
+					<p>dokumentere bygningen af portfoliet</p>
+					<p>reflektion over læring</p>
 					<a onClick="flow5()" class="beskrivelse_link">Link til opgavebeskrivelse</a>
 				</div>
 			</div>

@@ -61,7 +61,7 @@
   	display:flex;
   	/*justify-content: center;*/
 	overflow: hidden;
-	background-color:white;
+	background-color:#91FFAB;
 	/*padding-left: 25%;*/
 	height: 55px;
 	box-shadow: 0px -5px 10px 3px rgba(0,0,0,1.00);
@@ -70,10 +70,11 @@
 	/*display: list-item;*/
 	text-align: center;	
 	margin: auto ;	
+	
 	}
 #link {
 	/*background-color:rgba(0,255,12,0.44);*/
-	text-shadow: 2px 2px 5px grey ;
+	text-shadow: 2px 2px 3px grey ;
 	font-size: 23px;	
 }
 .navigation li a {
@@ -85,20 +86,21 @@
 }
 .navigation li a:hover{
 	/*background-color:rgba(0,255,12,0.44);*/
-	text-shadow: 2px 2px 5px grey ;
+	text-shadow: 2px 2px 3px grey ;
 	font-size: 23px;
 }
 .hjem {
 	width: 80px;
+	margin-right: -10px;
 }
 .projekter {
 	width: 130px;
-	margin-left: -25px;
-	margin-right: -10px;
+	margin-left: -10px;
+	margin-right: -15px;
 }
 .om_mig {
 	width: 120px;
-	margin: 0 -28px 0 -20px;
+	margin: 0 -28px 0 -15px;
 }
 .kontakt {
 	width: 115px;
@@ -114,13 +116,26 @@
 .projekt_overskrift{
 	margin-top: 140px;
 	margin-bottom: 20px;
-	font-size: 23px;
+	font-size: 27px;
+	font-weight: 600;
 }
 .content {
-	background-color: rgba(220,220,220,1.00);
+	background-color: #FFFFFF;
+}
+.content_text  {
+	font-size: 18px;
+	line-height: 26px;
+}
+.content_text h2 {
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.content_text p {
+	margin-bottom: 12px;
 }
 .content a {
 	display: block;
+	margin-bottom: 12px;
 }
 .main_body img {
 	width: 100%;
@@ -135,6 +150,22 @@
 	float: left;
 	width: 49%;
 }
+.flow5_redesign img {
+	margin-bottom: 10px;
+}
+.flow5_mobil_screenshot {
+	max-width: 48%;
+	float: left;	
+}
+.flow5_mobil_screenshot1 {
+	margin-right: 5%;
+}
+.flow5_mobil_screenshot2 {
+	margin-left: 5%;
+}
+
+
+
 /*overlays på projekter siden*/
 #overlay1 {
   position: fixed; /* Sit on top of the page content */
@@ -228,6 +259,8 @@
 }
 .om_mig_beskrivelse p {
 	margin-bottom: 12px;
+	font-size: 18px;
+	line-height: 21px;
 }
 .portrait {
 	max-width: 70%;	
@@ -249,7 +282,9 @@ form {
 	border-radius: 20px;
 	padding: 20px 38px 12px 23px;
 	font-size: 18px;
-	background: rgba(114,252,138,1.00);
+	/*background: #72FC8A;*/
+	/*background: #BFEDFF;*/
+	background: #91FFAB;
 	}
 input {
 	width: 100%;
@@ -270,7 +305,7 @@ form textarea {
 	overflow:auto;
 }
 #send_knap {
-	background: rgba(234,255,237,1.00);
+	background: #69E085;
 	width: 80px;
 	height: 36px;
 	border-radius: 8px;
@@ -278,7 +313,8 @@ form textarea {
 	font-weight: bold;
 }
 #send_knap:hover {
-	background: #72C176;
+	background: #00B32A;
+	
 }
 
 
